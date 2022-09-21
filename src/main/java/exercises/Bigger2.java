@@ -17,9 +17,5 @@ public class Bigger2 {
             System.out.println("Number " + number1 + " is the same like number " + number2 + ".");
         }
 
-
-
-
-
     }
 }
