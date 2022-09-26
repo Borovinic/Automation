@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Arrayss {
     public static void main(String[] args) {
 
-        //istog tipa moraju biti u jednom nizu
+        //istog tipa moraju biti u jednom nizu - drugi komentar git
         //objekat je u javi
         //ArrayList
         /*BOLJI     int[] name = {1,2,3};
