@@ -16,8 +16,6 @@ public class Practise {
         mathCalculations();
         printCalculation();
         printStars();
-
-
         scanner.close();
     }
 
@@ -25,8 +23,6 @@ public class Practise {
         System.out.println("Insert number:");
         int number = scanner.nextInt();
         System.out.println("Absolut value of number " + number + " is: " + Math.abs(number));
-
-
     }
 
     public static void bigger() {
@@ -66,7 +62,6 @@ public class Practise {
         System.out.println("Ben \t5\'7    \tM");
     }
 
-
     public static void functionSolver() {
         System.out.println("Enter the number:");
         int x = scanner.nextInt();
@@ -79,9 +74,7 @@ public class Practise {
         }
     }
 
-
     public static void mathCalculations() {
-
         double a = 2.8;
         double b = 3.1;
         double c = 6.0;
@@ -134,8 +127,5 @@ public class Practise {
         } else {
             System.out.println("******");
         }
-
     }
-
-
 }
