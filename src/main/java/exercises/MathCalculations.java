@@ -7,15 +7,16 @@ public class MathCalculations {
         double b = 3.1;
         double c = 6.0;
         int d = 2;
-        System.out.println(a+b);
+        System.out.println(a + b);
         System.out.println(Math.abs(a));
         System.out.println(Math.round(a));
         System.out.println(Math.floor(a));
         System.out.println(Math.ceil(a));
         System.out.println(Math.exp(a));
-        System.out.println(Math.max(a,b));
-        System.out.println(Math.min(a,b));
-        System.out.println(Math.pow(d,c));
+        System.out.println(Math.max(a, b));
+        System.out.println(Math.min(a, b));
+        System.out.println(Math.pow(d, c));
+
 
     }
 }
