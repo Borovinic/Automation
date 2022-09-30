@@ -5,10 +5,7 @@ public class Employee {
     private int employeeSalary;
     //constructors - same name as class
 
-    public Employee() {
-    }
-
-    ;
+    public Employee() {}
 
     public Employee(String name, int salary) {
         employeeName = name;
@@ -41,8 +38,6 @@ public class Employee {
         employeeSalary = employeeSalary + raise;
     }
 
-
-
     /* public String getEmployeeName(){
         return employeeName;
     }
@@ -58,10 +53,7 @@ public class Employee {
      public void setEmployeeSalary(int employeeSalary){
         this.employeeSalary= employeeSalary;
      }
-
-
     */
-
 
     //fields
     //constructor
