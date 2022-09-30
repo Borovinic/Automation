@@ -21,29 +21,21 @@ public class Methods {
     public static void printName(String n) {
         System.out.println(n);
     }
-
     public static String printName2(String n){
         return n;
     }
 
-
     //metod calculate a,b broja  koji oduzima i sabira
-
     public static int calculate(int a, int b){
         int sum = a+b;
         System.out.println(a+b);
         System.out.println(a-b);
         return sum;
     }
-
     public static void calculate(int a, int b, int c){
         System.out.println(a+b+c);
-
     }
-
-
     public void greetMe(){
         System.out.println("Hello");
     }
-
 }
