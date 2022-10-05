@@ -1,24 +1,14 @@
 package oop;
 
+public class TestArea {
+    static Rectangle a = new Rectangle(10.7, 15.0);
+    static Square b = new Square(5);
 
-    public class TestArea extends Square {
+    public static void main(String[] args) {
 
-
-        static Rectangle a = new Rectangle();
-        static Rectangle b = new Rectangle();
-
-        public static void main(String[] args) {
-
-            a.setLength(2.0);
-            a.setWidth(2.0);
-            System.out.println(a.getArea() + " Rectangle Area");
-
-            //Circle
-            b.setWidth(3.0);
-            double circleArea = b.getWidth() * 3.144;
-            System.out.println("Circle area:" + circleArea);
-
-        }
-
-
+        double rectArea = a.calculateArea(a.getLength(), a.getWidth());
+        System.out.println(rectArea);
+        double squareArea = b.calculateArea(b.getSide());
+        System.out.println(squareArea);
     }
+}

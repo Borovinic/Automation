@@ -3,19 +3,19 @@ package oop;
 public class Rectangle {
     private double width ;
     private double length;
-    private double area;
 
-    public Rectangle (double width, double length, double area){
+    public Rectangle (double width, double length){
         this.width = width;
         this.length = length;
-        this.area = area;
     }
 
     public Rectangle() {}
 
-    public Rectangle(double area) {
+    public double calculateArea(double length, double width) {
+        double area = 0;
+        area = 2*length + 2*width;
+        return area;
     }
-
 
     public double getWidth() {
         return width;
@@ -31,14 +31,6 @@ public class Rectangle {
 
     public void setLength(double length) {
         this.length = length;
-    }
-
-    public double getArea() {
-        return area;
-    }
-
-    public void setArea(double area) {
-        this.area = area;
     }
 
 }

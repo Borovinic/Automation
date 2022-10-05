@@ -1,20 +1,24 @@
 package oop;
 
 public class Square extends Rectangle {
+    private double side;
 
-
-    public Square() {
+    public double getSide() {
+        return side;
     }
 
-    static Rectangle a = new Rectangle();
+    public Square( double side) {
+        super(side, side);
+        this.side = side;
+    }
 
-    public static void main(String[] args) {
+    public void setSide(double side) {
+        this.side = side;
+    }
 
-        a.setWidth(2);
-        a.setLength(2);
-
-        a.getArea();
-        System.out.println(a.getArea() + " area");
-
+    public double calculateArea(double side) {
+        double area = 0;
+        area = 4*side;
+        return area;
     }
 }
