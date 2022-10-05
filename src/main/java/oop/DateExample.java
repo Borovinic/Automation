@@ -10,14 +10,4 @@ public class DateExample {
         System.out.println("String date variable " + new Date().toString());
 
     }
-
-
-
-
-
-
-
-
-
-
 }
