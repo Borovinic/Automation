@@ -8,6 +8,5 @@ public class DateExample {
         new Date(); //constructor for Date () class
         System.out.println("Default constructor returns: " + new Date());
         System.out.println("String date variable " + new Date().toString());
-
     }
 }
